@@ -33,6 +33,8 @@ $tweaks = @(
 	"InstallTitusProgs", #REQUIRED FOR OTHER PROGRAM INSTALLS!
 	"Install7Zip",
 	"InstallNotepadplusplus",
+	"InstallGameLaunchers",
+	"InstallVirtualbox",
 
 	### Windows Apps
 	"DebloatAll",
@@ -149,7 +151,7 @@ $tweaks = @(
 	# "DisableThumbsDB",              # "EnableThumbsDB",
 
 	### Application Tweaks ###
-  "EnableOneDrive",
+  "DisableOneDrive",
 	"UninstallMsftBloat",           # "InstallMsftBloat",
 	"UninstallThirdPartyBloat",     # "InstallThirdPartyBloat",
 	# "UninstallWindowsStore",      # "InstallWindowsStore",
@@ -220,7 +222,18 @@ Function InstallMediaPlayerClassic {
 	Write-Output "Installing Media Player Classic (VLC Alternative)"
 	choco install mpc-hc -y
 }
-
+Function InstallGameLaunchers{
+	Write-Output "Instaling all major game distribution platforms (Steam, Origin battle.net, etc...)"
+	choco install steam  Origin epicgameslauncher battle.net goggalaxy uplay  -y
+}
+Function InstallVirtualbox {
+	Write-Output "installing Virtualbox"
+	choco install virtualbox -y --force
+}
+Function InstallPrograms {
+	Write-Output "Instaling some usefull programs"
+	choco install gimp vlc thunderbird itunes libreoffice-fresh qbittorrent winrar filezilla -y
+}
 ##########
 # Privacy Tweaks
 ##########
