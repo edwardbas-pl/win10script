@@ -9,5 +9,5 @@ Original script - https://github.com/ChrisTitusTech/win10script
 - Added installation command for some programs
 
 ## oneline command
-
+``test``.
 powershell -nop -c "iex(New-Object Net.WebClient).DownloadString('https://git.io/JJbAA')"
