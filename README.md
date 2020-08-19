@@ -1,5 +1,5 @@
 # win10script
-This is fork of Chris Titus Windows 10 Debloat script.
+This is fork of [Chris Titus](https://github.com/ChrisTitusTech/win10script) Windows 10 Debloat script.
 
 Original script - https://github.com/ChrisTitusTech/win10script
 
