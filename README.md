@@ -8,5 +8,5 @@ Original script - https://github.com/ChrisTitusTech/win10script
 - Disabled OneDrive
 - Added installation command for some programs
 
-## oneline command
+## One line command
 ``powershell -nop -c "iex(New-Object Net.WebClient).DownloadString('https://git.io/JJbAA')"``.
