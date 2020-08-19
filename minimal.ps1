@@ -225,7 +225,7 @@ Function InstallMediaPlayerClassic {
 }
 Function InstallGameLaunchers{
 	Write-Output "Instaling all major game distribution platforms (Steam, Origin battle.net, etc...)"
-	choco install steam  Origin epicgameslauncher battle.net goggalaxy uplay  -y
+	choco install steam  Origin epicgameslauncher battle.net goggalaxy uplay bethesdanet  -y --ignore-checksums
 }
 Function InstallVirtualbox {
 	Write-Output "installing Virtualbox"
@@ -233,7 +233,7 @@ Function InstallVirtualbox {
 }
 Function InstallPrograms {
 	Write-Output "Instaling some usefull programs"
-	choco install gimp vlc thunderbird itunes libreoffice-fresh qbittorrent winrar filezilla -y
+	choco install gimp vlc thunderbird itunes libreoffice-fresh qbittorrent winrar filezilla -y --ignore-checksums
 }
 ##########
 # Privacy Tweaks
