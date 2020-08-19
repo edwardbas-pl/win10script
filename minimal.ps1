@@ -233,7 +233,7 @@ Function InstallVirtualbox {
 }
 Function InstallPrograms {
 	Write-Output "Instaling some usefull programs"
-	choco install gimp vlc thunderbird itunes libreoffice-fresh qbittorrent winrar filezilla -y --ignore-checksums
+	choco install gimp vlc thunderbird itunes libreoffice-fresh qbittorrent winrar filezilla putty vscode -y --ignore-checksums
 }
 ##########
 # Privacy Tweaks
