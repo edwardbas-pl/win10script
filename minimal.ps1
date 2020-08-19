@@ -35,6 +35,7 @@ $tweaks = @(
 	"InstallNotepadplusplus",
 	"InstallGameLaunchers",
 	"InstallVirtualbox",
+	"InstallPrograms",
 
 	### Windows Apps
 	"DebloatAll",
